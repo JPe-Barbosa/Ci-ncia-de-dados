@@ -1,0 +1,23 @@
+Início 
+    inteiro lado1, lado2, lado3;
+    escreva("insira o valor dos lados de um triangulo com espacos: ");
+    leia(lado1, lado2, lado3);
+
+    se (lado1 == 0 ou lado2 == 0 ou lado3 == 0){
+        escreva("nao forma um triangulo");
+    }se nao{
+        se(((lado1 + lado2) <= lado3) ou ((lado2 + lado3) <= lado1) ou  ((lado3 +lado1) <= lado2)){
+            escreva("nao forma um triangulo");
+        }se nao{
+            se( (lado1 == lado2) e (lado1 == lado2) e (lado3 == lado2)){
+                escreva("forma um triangulo equilatero");
+            }se nao{
+                se ((lado1 == lado2) ou (lado1 == lado2) ou (lado3 == lado2)){
+                    escreva("forma um triangulo isoceles");
+                }se nao{
+                    escreva("forma um triangulo escaleno");
+                }
+            }
+        }
+    }
+Fim
