@@ -1,1 +1,1 @@
-# Ci-ncia-de-dados
+# Data Science undergraduate course at USP
